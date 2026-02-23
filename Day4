@@ -1,0 +1,15 @@
+Day4
+Execute the following commands after creating the directory and file
+NB: Remember to update the steps you took
+
+ls -la /tmp/xfusioncorp.sh 
+sudo chmod 555 /tmp/xfusioncorp.sh 
+ls -la /tmp/xfusioncorp.sh 
+
+
+I navigated to /tmp using cd /tmp.
+I created a file named xfusioncorp.sh using the touch command.
+I checked the file permissions using ls -la /tmp/xfusioncorp.sh.
+I changed the file permissions to 555 using sudo chmod 555 /tmp/xfusioncorp.sh.
+I verified the permissions changed using ls -la /tmp/xfusioncorp.sh.
+I executed the file using . /tmp/xfusioncorp.sh.
