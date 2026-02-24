@@ -1,3 +1,5 @@
+
+
 Day4
 Execute the following commands after creating the directory and file
 NB: Remember to update the steps you took
@@ -7,9 +9,20 @@ sudo chmod 555 /tmp/xfusioncorp.sh
 ls -la /tmp/xfusioncorp.sh 
 
 
-I navigated to /tmp using cd /tmp.
-I created a file named xfusioncorp.sh using the touch command.
+I used the pwd command to confirm my current working directory.
+I navigated to the system temporary directory using cd /tmp.
+I confirmed I was inside the /tmp directory by running the pwd command again.
+I created a file named xfusioncorp.sh using the touch xfusioncorp.sh command.
 I checked the file permissions using ls -la /tmp/xfusioncorp.sh.
 I changed the file permissions to 555 using sudo chmod 555 /tmp/xfusioncorp.sh.
-I verified the permissions changed using ls -la /tmp/xfusioncorp.sh.
-I executed the file using . /tmp/xfusioncorp.sh.
+I verified that the permissions changed successfully by running ls -la /tmp/xfusioncorp.sh again.
+I executed the file using . /tmp/xfusioncorp.sh to confirm that the permissions were effective.
+I navigated back to my project directory.
+I used the git status command to check for modified and untracked files.
+I used the git add Day4 command to stage the updated Day4 file.
+I used the git commit -m "Updated Day4 with xfusioncorp.sh task" command to commit my changes with a meaningful message.
+I used the git push command to push my changes to my GitHub repository.
+
+
+
+
